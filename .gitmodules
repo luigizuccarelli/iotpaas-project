@@ -1,0 +1,28 @@
+[submodule "iotpaas-message-consumer"]
+	path = iotpaas-message-consumer
+	url = https://github.com/luigizuccarelli/iotpaas-message-consumer
+	branch = master
+[submodule "iotpaas-message-consumer-redis"]
+	path = iotpaas-message-consumer-redis
+	url = https://github.com/luigizuccarelli/iotpaas-message-consumer-redis
+	branch = master
+[submodule "iotpaas-message-producer"]
+	path = iotpaas-message-producer
+	url = https://github.com/luigizuccarelli/iotpaas-message-producer
+	branch = master
+[submodule "iotpaas-infra-pg"]
+	path = iotpaas-infra-pg
+	url = https://github.com/luigizuccarelli/iotpaas-infra-pg
+	branch = master
+[submodule "iotpaas-auth-interface"]
+	path = iotpaas-auth-interface
+	url = https://github.com/luigizuccarelli/iotpaas-auth-interface
+	branch = master
+[submodule "iotpaas-reverse-proxy"]
+	path = iotpaas-reverse-proxy
+	url = https://github.com/luigizuccarelli/iotpaas-reverse-proxy
+	branch = master
+[submodule "iotpaas-templates"]
+	path = iotpaas-templates
+	url = https://github.com/luigizuccarelli/iotpaas-templates
+	branch = master
