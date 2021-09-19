@@ -26,3 +26,11 @@
 	path = iotpaas-templates
 	url = https://github.com/luigizuccarelli/iotpaas-templates
 	branch = master
+[submodule "iotpaas-gobench"]
+	path = iotpaas-gobench
+	url = https://github.com/luigizuccarelli/iotpaas-gobench
+	branch = master
+[submodule "sparkml-vitalsigns"]
+	path = sparkml-vitalsigns
+	url = https://github.com/luigizuccarelli/sparkml-vitalsigns
+	branch = master

@@ -10,12 +10,12 @@ The main purpose for developing this platform and functionality is to have
 - A system to deploy and execute secure IOT device data to a backend
 - A simple analytics service to retrieve and view aggregated iotdata data
 - A Highly scalable platform
-- High avaliability
-- A Loosely coupled architecture
+- High availability
+- A loosely coupled architecture
 - A system based on linux containers
 - Container orchestration (OpenShift/Kuberntes)
-- A simple to implement platform
-- A customizable, asy to update and deploy data structure
+- A simple to implement support services (datastore, message queue)
+- A customizable, easy to update and deploy data structure
 - CICD to build and deploy quickly
 
 ## Project structure
@@ -40,9 +40,17 @@ This project includes the following repo's (as submodules)
 - Observability is realized with Grafana (dashboards) and prometheus
 - CICD uses Tekton, dependencies to realize the CICD include a seperate instance of SonarQube and Gitea (repo) deployed on Kubernetes
 
+## Usage
+
+Clone this repo 
+
+```
+git clone --recursive https://github.com/luigizuccarelli/iotpaas-project
+```
+
 ## Installation
 
-Navigatre to the README.md in the iotpaas-templates directory for instructions on installing the iotpaas ecosystem.
+Navigate to the README.md in the iotpaas-templates directory for instructions on installing the iotpaas ecosystem.
 
 ## Customization
 
@@ -52,7 +60,7 @@ By simply changing the schema in the iotpaas-message-consumer the user/developer
 
 The IOTPAAS system makes use of grafana (for visual display) and prometheus to collect metrics from the consumer and producer services
 
-It will be up the the user/developer to implement other dashbaords to monitor service like redis, couchbase, kafka, nodes etc.
+It will be up the the user/developer to implement other dashboards to monitor service like redis, couchbase, kafka, nodes etc.
 
 ## Open Source
 
@@ -67,5 +75,3 @@ Feel free to clone/fork.
 Hope its useful - enjoy !!!
 
 Luigi Zuccarelli 2021
-
-
