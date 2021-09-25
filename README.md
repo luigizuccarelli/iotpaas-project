@@ -70,6 +70,8 @@ I have tried my best to keep all services as simple as possible, simplicity is h
 
 The SonarQube quality gate was set to 80% code coverage, all microservices (iotpaas-message-consumer, iotpaas-message-consumer-redis, iotpaas-message-producer, iotpaas-auth-interface) have unit test coverage >= 80%
 
+I have created the README's after testing and deploying, if there are any discrepencies please add an issue or create a PR. This also applies to any problems in any of the repos (code base included).
+
 Feel free to clone/fork. 
 
 Hope its useful - enjoy !!!
